@@ -1,0 +1,129 @@
+/*common part css*/
+
+* {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+}
+
+ul,
+li,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@font-face {
+  src: url(../fonts/DINCondensed-Bold.ttf);
+  font-family: dinCondensedBold;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: #1e1e1e;
+  background: #d1bf9f;
+}
+
+::selection {
+  color: #1e1e1e;
+  background: #d1bf9f;
+}
+body {
+  font-family: dinCondensedBold;
+  background-color: #1e1e1e;
+  background-image: url(../images/bg.90d848b.png);
+  background-position: center;
+  background-size: cover;
+}
+/* comming-soon page css  */
+#comming-soon {
+  height: 100vh;
+  position: relative;
+}
+#comming-soon::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  /* background-image: url(../images/bg.90d848b.png);
+  background-position: center;
+  background-size: cover; */
+}
+#comming-soon .social-media {
+  z-index: 9;
+  position: relative;
+}
+#comming-soon .nav-link {
+  color: #d1bf9f;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#comming-soon .header-content {
+  z-index: 9;
+}
+#comming-soon .header-text h1 {
+  color: #d1bf9f;
+  font-size: 72px;
+}
+#comming-soon .details-contents {
+  z-index: 9;
+}
+#comming-soon .we-are-back h2 {
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 45px;
+}
+#comming-soon .details-contents h3 {
+  color: #d1bf9f;
+  font-size: 32px;
+  line-height: 45px;
+}
+#comming-soon .details-contents p {
+  font-size: 18px;
+  line-height: 24px;
+}
+#comming-soon .details-contents .btn {
+  font-size: 16px;
+  color: #1e1e1e;
+  border: 2px solid #d1bf9f;
+  background-color: #d1bf9f;
+}
+#comming-soon .details-contents .btn:hover {
+  color: #d1bf9f;
+  background-color: transparent;
+}
+#comming-soon .location {
+  color: #d1bf9f;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 32px;
+}
+#comming-soon .copyRight-text {
+  color: #d1bf9f;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+}
+#comming-soon .copyRight-text a {
+  color: #d1bf9f;
+}
+#comming-soon .mail a {
+  color: #d1bf9f;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
